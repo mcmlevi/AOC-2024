@@ -1,7 +1,7 @@
 left_arr = []
 right_map = {}
 
-with open('python\day1\input.txt', 'r', encoding="utf-8") as file:
+with open('AOC-2024\python\day1\input.txt', 'r', encoding="utf-8") as file:
     for line in file.readlines():
         left, right = line.split()
         left_arr.append(int(left))
